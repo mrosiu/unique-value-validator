@@ -1,0 +1,20 @@
+{
+    "name": "rosiu/unique-value-validator",
+    "authors": [
+        {
+            "name": "Mateusz Rosiek",
+            "email": "mateusz@mrosiu.pl"
+        }
+    ],
+    "require": {
+      "php": ">=5.6",
+        "symfony/validator": "^3.3",
+        "symfony/property-access": "^3.3",
+        "doctrine/orm": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MRosiu\\Validator\\": "Validator/"
+        }
+    }
+}
